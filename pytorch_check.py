@@ -1,0 +1,12 @@
+import sys
+
+print(sys.version)
+print(sys.executable)
+
+import torch
+
+print(torch.__version__)
+print(torch.version.hip)
+
+print(torch.cuda.is_available())
+print(torch.cuda.get_device_name(0))
